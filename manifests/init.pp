@@ -29,7 +29,7 @@ class ntp (
   validate_re($keys_requestkey, ['^\d+$', ''])
   validate_array($keys_trusted)
   validate_string($package_ensure)
-  validate_array($package_name)
+  validate_string($package_name)
   validate_bool($panic)
   validate_array($preferred_servers)
   validate_array($restrict)

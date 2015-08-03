@@ -43,7 +43,7 @@ class ntp::params {
       $config          = '/etc/ntp.conf'
       $keys_file       = '/etc/ntp/keys'
       $driftfile       = '/var/lib/ntp/drift'
-      $package_name    = [ 'ntp' ]
+      $package_name    = 'ntp'
       $service_name    = 'ntp'
       $servers         = [
         '0.debian.pool.ntp.org iburst',
@@ -56,7 +56,7 @@ class ntp::params {
       $config          = '/etc/ntp.conf'
       $driftfile       = '/var/lib/ntp/drift'
       $keys_file       = '/etc/ntp/keys'
-      $package_name    = [ 'ntp' ]
+      $package_name    = 'ntp'
       $service_name    = 'ntpd'
       $servers         = [
         '0.centos.pool.ntp.org',
@@ -68,7 +68,7 @@ class ntp::params {
       $config          = '/etc/ntp.conf'
       $driftfile       = '/var/lib/ntp/drift/ntp.drift'
       $keys_file       = '/etc/ntp/keys'
-      $package_name    = [ 'ntp' ]
+      $package_name    = 'ntp'
       $service_name    = 'ntp'
       $servers         = [
         '0.opensuse.pool.ntp.org',
@@ -94,7 +94,7 @@ class ntp::params {
       $config          = '/etc/ntp.conf'
       $driftfile       = '/var/lib/ntp/drift'
       $keys_file       = '/etc/ntp/keys'
-      $package_name    = [ 'ntp' ]
+      $package_name    = 'ntp'
       $service_name    = 'ntpd'
       $servers         = [
         '0.pool.ntp.org',
